@@ -1,0 +1,12 @@
+.background {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100%; /* Define a largura da imagem */
+    height: 100%;
+    background-image: url('./photos/wp4770368.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    margin-left: 80%;
+    /* height: 200%; */
+}

@@ -6,8 +6,7 @@ export function BackImage(){
     return(
         <>
             <div className={styles.container}>
-                <div className={styles.background}>
-                </div>
+                <div className={styles.background}></div>
                 <div className={styles.content}>
                 <div className="container">
         <Profile 

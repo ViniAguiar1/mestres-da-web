@@ -4,6 +4,7 @@
     height: 100%;
     overflow: hidden; /* Esconde o overflow da imagem */
 }
+
 .background {
     position: absolute;
     transform: translateX(-50%);
@@ -13,11 +14,27 @@
     background-size: cover; /* Ajusta o tamanho da imagem */
     background-repeat: no-repeat;
     filter: blur(4px);
-    margin-left: 80%;
-    /* height: 200%; */
+    left: 50%; /* Posiciona a imagem no centro */
+    top: 0; /* Alinha a imagem no topo */
 }
+
 .content {
     position: relative;
     z-index: 1; /* Garante que o conteúdo esteja acima da imagem de fundo */
-    /* padding-left: 20px; Garante que o conteúdo não fique coberto pela sombra */
+    padding-left: 20px; /* Garante que o conteúdo não fique coberto pela sombra */
+}
+
+/* Media query para ajustar em dispositivos com largura menor que 768px */
+@media screen and (max-width: 767px) {
+    .background {
+        left: 0; /* Posiciona a imagem no canto superior esquerdo */
+        transform: none; /* Remove a transformação X */
+    }
+}
+/* Media query para ajustar em dispositivos com largura menor que 480px */
+@media screen and (max-width: 479px) {
+    .background {
+        left: 0; /* Posiciona a imagem no canto superior esquerdo */
+        transform: none; /* Remove a transformação X */
+    }
 }

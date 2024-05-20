@@ -1,3 +1,4 @@
+/* Estilo padrão */
 .card {
     position: relative;
     width: 300px;
@@ -6,7 +7,7 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
-    height: 450px;
+    height: 420px;
     margin: 2rem;
 }
 
@@ -49,4 +50,54 @@
     margin: 0;
     font-size: 16px;
     color: #fff; /* Texto branco */
+}
+
+/* Media query para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 1rem 0.5rem;
+    }
+
+    .description {
+        padding: 12px;
+        height: 15%;
+    }
+
+    .card:hover .description {
+        height: 40%; /* Aumenta a altura da descrição para telas menores */
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}
+
+/* Media query para telas menores que 480px */
+@media screen and (max-width: 479px) {
+    .card {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .description {
+        padding: 10px;
+        height: 20%;
+    }
+
+    .card:hover .description {
+        height: 45%; /* Aumenta ainda mais a altura da descrição para telas muito pequenas */
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
 }
