@@ -9,6 +9,7 @@ const hash = require('crypto').createHash('md5').update(timestamp + privateKey +
 import CharacterCard from "./teste";
 
 
+
 const App: React.FC = () => {
   const [characters, setCharacters] = useState<Character[]>([]);
 
