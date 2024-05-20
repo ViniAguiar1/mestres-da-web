@@ -14,7 +14,7 @@
     background-size: cover; /* Ajusta o tamanho da imagem */
     background-repeat: no-repeat;
     filter: blur(4px);
-    left: 50%; /* Posiciona a imagem no centro */
+    left: 80%; /* Posiciona a imagem no centro */
     top: 0; /* Alinha a imagem no topo */
 }
 
