@@ -2,39 +2,38 @@
     position: relative;
     width: 100%;
     height: 100%;
-    overflow: hidden; /* Esconde o overflow da imagem */
+    overflow: hidden; 
 }
 
 .background {
     position: absolute;
     transform: translateX(-50%);
-    width: 100%; /* Define a largura da imagem */
+    width: 100%;
     height: 100%;
-    background-image: url('./photos/wp4770368.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
-    background-size: cover; /* Ajusta o tamanho da imagem */
+    background-image: url('./photos/wp4770368.jpg'); 
+    background-size: cover; 
     background-repeat: no-repeat;
     filter: blur(4px);
-    left: 80%; /* Posiciona a imagem no centro */
-    top: 0; /* Alinha a imagem no topo */
+    left: 80%; 
+    top: 0; 
 }
 
 .content {
     position: relative;
-    z-index: 1; /* Garante que o conteúdo esteja acima da imagem de fundo */
-    padding-left: 20px; /* Garante que o conteúdo não fique coberto pela sombra */
+    z-index: 1;
+    padding-left: 20px; 
 }
 
-/* Media query para ajustar em dispositivos com largura menor que 768px */
+
 @media screen and (max-width: 767px) {
     .background {
-        left: 0; /* Posiciona a imagem no canto superior esquerdo */
-        transform: none; /* Remove a transformação X */
+        left: 0;
+        transform: none; 
     }
 }
-/* Media query para ajustar em dispositivos com largura menor que 480px */
 @media screen and (max-width: 479px) {
     .background {
-        left: 0; /* Posiciona a imagem no canto superior esquerdo */
-        transform: none; /* Remove a transformação X */
+        left: 0; 
+        transform: none; 
     }
 }

@@ -41,41 +41,40 @@ header {
     margin: 1rem;
 }
 
-/* Media query para ajustar em dispositivos com largura menor que 768px */
 @media screen and (max-width: 768px) {
     .logo {
-        width: 400px; /* Ajuste a largura da logo */
-        margin-left: 0; /* Centraliza a logo */
+        width: 400px;
+        margin-left: 0;
     }
     .links {
-        font-size: 1.2rem; /* Reduz o tamanho da fonte dos links */
-        gap: 1rem; /* Reduz o espaço entre os links */
+        font-size: 1.2rem;
+        gap: 1rem;
     }
     .profile .avatar {
-        width: 50%; /* Reduz a largura do avatar */
-        height: 50px; /* Ajuste a altura do avatar */
+        width: 50%;
+        height: 50px;
     }
 }
 
-/* Media query para ajustar em dispositivos com largura menor que 480px */
 @media screen and (max-width: 479px) {
     header {
-        flex-direction: column; /* Alinha os itens em coluna */
-        height: auto; /* Ajusta a altura automaticamente */
+        flex-direction: column;
+        height: auto;
     }
     .logo {
-        width: 100%; /* Faz a logo ocupar a largura total */
-        height: auto; /* Ajusta a altura automaticamente */
-        margin-left: 0; /* Centraliza a logo */
-        object-fit: contain; /* Mantém a proporção da imagem */
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        object-fit: contain;
     }
     .links {
-        flex-direction: column; /* Alinha os links em coluna */
-        font-size: 1rem; /* Reduz o tamanho da fonte dos links */
-        gap: 0.5rem; /* Reduz o espaço entre os links */
+        flex-direction: column;
+        font-size: 1rem;
+        gap: 0.5rem;
     }
     .avatar {
-        width: 30%; /* Reduz a largura do avatar */
-        height: 50px; /* Ajuste a altura do avatar */
+        width: 30%;
+        height: 50px;
+        border-radius: none;
     }
 }
