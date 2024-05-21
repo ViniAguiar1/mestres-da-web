@@ -8,9 +8,9 @@ export function Header(){
                 <img className={styles.logo} src={ marvelLogo } alt="Logo da Marvel" />
 
                 <div className={styles.links}>
-                    <a className={styles.links} href="#">Personagens</a>
-                    <a className={styles.links} href="#">Filmes</a>
-                    <a className={styles.links} href="#">HQ's</a>
+                    <a className={styles.links} href="https://www.linkedin.com/in/viniciusaguiar-araujo/">Personagens</a>
+                    <a className={styles.links} href="https://www.linkedin.com/in/viniciusaguiar-araujo/">Filmes</a>
+                    <a className={styles.links} href="https://www.linkedin.com/in/viniciusaguiar-araujo/">HQ's</a>
                 </div>
 
                 <div className={styles.profile}>
