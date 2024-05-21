@@ -33,21 +33,22 @@
     overflow: hidden;
     height: 12%;
     transition: height 0.3s ease;
+    /* font-size: 14px; */
 }
 
 .card:hover .description {
-    height: 35%;
+    height: 43%;
 }
 
 .title {
     margin: 0;
-    font-size: 24px;
+    font-size: 22px;
     color: #fff;
 }
 
 .text {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
 }
 
@@ -91,7 +92,7 @@
     }
 
     .title {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .text {

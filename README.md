@@ -10,25 +10,6 @@ React: Framework JavaScript para a construção de interfaces de usuário, ofere
 TypeScript: Superconjunto de JavaScript que adiciona tipagem estática opcional ao código, proporcionando maior clareza, segurança e produtividade durante o desenvolvimento.
 Styled-components: Biblioteca para estilização de componentes em React, permitindo a criação de estilos de forma mais intuitiva e dinâmica, diretamente no código JavaScript/TypeScript.
 
-Estrutura do Projeto
-O projeto está organizado de forma a facilitar a navegação e manutenção do código-fonte. Aqui está uma visão geral da estrutura de diretórios:
-
-src/
-|-- components/            # Componentes React reutilizáveis
-|   |-- Profile.tsx
-|
-|-- components/                 # Páginas da aplicação
-|   |-- Header.tsx
-|
-|-- assets/                # Recursos estáticos (imagens, ícones, etc.)
-|   |-- images/
-|   |-- icons/
-|
-|
-|-- App.tsx                # Componente principal da aplicação
-|-- main.tsx              # Ponto de entrada da aplicação
-|-- ...
-
 Contribuição e Desenvolvimento
 Encorajamos a contribuição de todos os desenvolvedores interessados em melhorar este projeto. Ao contribuir, por favor, siga estas diretrizes:
 
