@@ -70,6 +70,8 @@ header {
         flex-direction: column;
         font-size: 1rem;
         gap: 0.5rem;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
     .profile {
         display: none; /* Remove o perfil (foto e opção de sair) */
