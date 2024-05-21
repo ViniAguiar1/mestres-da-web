@@ -11,6 +11,7 @@ export function Header(){
                     <a className={styles.links} href="https://www.linkedin.com/in/viniciusaguiar-araujo/">Personagens</a>
                     <a className={styles.links} href="https://www.linkedin.com/in/viniciusaguiar-araujo/">Filmes</a>
                     <a className={styles.links} href="https://www.linkedin.com/in/viniciusaguiar-araujo/">HQ's</a>
+                    <a className={styles.links} href="https://www.linkedin.com/in/viniciusaguiar-araujo/">Linkedin</a>
                 </div>
 
                 <div className={styles.profile}>
